@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.WeatherFragment">
+
+
+    <Button
+        android:id="@+id/locationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/rounded_button_shape"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:text="Get Current Weather" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/weatherDetailsCardV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+
+            <TextView
+                android:id="@+id/tempTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19'c"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/descTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cloudy"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/timeZoneTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Europe/London"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:id="@+id/weatherImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "705811875653",
+    "project_id": "speechify-da153",
+    "storage_bucket": "speechify-da153.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705811875653:android:bc9e0debcfae2b4429a02c",
+        "android_client_info": {
+          "package_name": "com.example.speechify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705811875653-k9ptt0ve1t2nbns71tmk0j2vdf75mm1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.speechify",
+            "certificate_hash": "99cf0035cccdbf5b78189bb9c315df32fb3f0033"
+          }
+        },
+        {
+          "client_id": "705811875653-tq6f9eivisuld12h07c1870g3bm8oekg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoWuwkBv7YoGWZD5McDTMz3uGPxL3LRLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705811875653-tq6f9eivisuld12h07c1870g3bm8oekg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

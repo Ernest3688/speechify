@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="20dp"
+    android:padding="20dp"
+    android:elevation="10dp"
+    android:id="@+id/savedNotedCardCV">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="15dp">
+
+      <TextView
+          android:id="@+id/savedNoteTxt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Note" />
+
+      <TextView
+          android:id="@+id/savedNoteDate"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="DATE"
+          android:textStyle="bold"
+          android:layout_marginTop="12dp" />
+
+      <Button
+          android:id="@+id/savedNoteDeleteBtn"
+          android:layout_width="wrap_content"
+          android:layout_height="34dp"
+          android:text="Delete"
+          android:textColor="@color/white"
+          android:layout_marginTop="20dp"
+          android:background="#FF0000"/>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>

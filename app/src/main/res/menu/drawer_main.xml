@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_saved_note_fragment"
+            android:title="Saved notes" />
+
+        <item
+            android:id="@+id/nav_weather_fragment"
+            android:title="Weather" />
+
+        <item
+            android:id="@+id/nav_settings_fragment"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out" />
+    </group>
+</menu>
