@@ -1,6 +1,5 @@
 # speechify
 A native android app to help people with Dysgraphia using to speech to text technology.
-# speechify
 The Android build system compiles app resources and source code and packages them into APKs or Android App Bundles that you can test, deploy, sign, and distribute.
 
 # The build process
