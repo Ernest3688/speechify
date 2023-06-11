@@ -9,10 +9,6 @@ The Android Gradle plugin does much of the build process for you, but it can be 
 
 Different projects may have different build goals. For example, the build for a third-party library produces AAR or JAR libraries. However, an app is the most common type of project, and the build for an app project produces a debug or release APK or AAB of your app that you can deploy, test, or release to external users.
 
-This page focuses on app development, but many of the build steps and concepts are common to most build types.
-
-
-
 <img src="https://github.com/Frankdroid7/speechify/assets/30746679/22f09eb6-b545-48d3-85ce-f8b531083495" width="300"/>
 <br>
 <br>
